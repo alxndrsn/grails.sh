@@ -28,3 +28,6 @@ Using the script is as transparent as possible:
 
         $ grails 1.3.3 upgrade
 
+dirname
+-------
+Added an implementation of dirname in case it's not otherwise available (e.g. Windows with msysgit).
